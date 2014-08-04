@@ -2239,6 +2239,22 @@ span.ribbon_icon
 	display: none;
 }
 
+.parent-services
+{
+    width: 100%;
+    
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.child-services
+{
+    display: inline-block;
+    
+    border: 1px solid red;
+    margin: 2px;
+}
+
 
 
 /* @plugins
