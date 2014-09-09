@@ -740,48 +740,154 @@
                             
                          
                                       
-              
-    <div class="featuredflex flexslider">
-    <ul class="slides">
-      
-      <li>
-                             
-            <div class="item_slider body3">
-                        
-                
-                        
-                    <img width="640" height="400" src=<%=asset_path "530_fifth_avenue.png"%> class="attachment-block_2 wp-post-image" alt="1395871_19682756" title="" />                
-               
-                
-                <h2><a href="http://capethemes.com/demo/scroller1/myportfolio/portfolio-item-with-slider/">530 Fifth Avenue</a></h2>
-    
-                <p class="meta"><a href="http://capethemes.com/demo/scroller1/categories/architecture/" rel="tag">Arcitecture Highlight</a> &bull; <a href="http://capethemes.com/demo/scroller1/categories/branding/" rel="tag">Another Highlight</a> </p>
-                
-                <h3>Writeup about the project...</h3>
-              
-                
-        
-            </div>        </li>
+
+
             
+      <% names = Array.new %>
+      <% addresses = [] %>
+      <% names.push("One New York Plaza") %>
+      <% addresses.push("1 New York Plaza, New York, NY") %>
+      <div class="featuredflex flexslider">
+      <ul class="slides">      
+        <% counter = 1 %>
+        <% while counter < 44 %>
+          <li>                             
+            <div class="item_slider body3">              
+              <img width="640" height="400" src=<%=asset_path "#{counter}.jpg"%> class="attachment-block_2 wp-post-image" alt="1395871_19682756" title="" />                
+              <% if counter == 1 %>
+                <h2>One New York Plaza</h2>
+                <p>1 New York Plaza, New York, NY</p>
+              <% elsif counter == 2 %>
+                <h2>One New York Plaza</h2>
+                <p>1 New York Plaza, New York, NY</p>
+              <% elsif counter == 3 %>
+                <h2>One New York Plaza</h2>
+                <p>1 New York Plaza, New York, NY</p>
+              <% elsif counter == 4 %>
+                <h2>1185 Sixth Avenue </h2>
+                <p>1185 Sixth Avenue, New York, NY</p>
+              <% elsif counter == 5 %>
+                <h2>Alliance Bernstein</h2>
+                <p>1345 Sixth Avenue, New York, NY</p>
+              <% elsif counter == 6 %>
+                <h2>Ion Media Networks, Inc.</h2>
+                <p>810 Seventh Avenue, New York</p>
+              <% elsif counter == 7 %>
+                <h2>Ion Media Networks, Inc.</h2>
+                <p>810 Seventh Avenue, New York</p>
+              <% elsif counter == 8 %>
+                <h2>Ion Media Networks, Inc.</h2>
+                <p>810 Seventh Avenue, New York</p>
+              <% elsif counter == 9 %>
+                <h2>Warburg Pincus, LLC</h2>
+                <p>466 Lexington Avenue, New York, NY</p>
+              <% elsif counter == 10 %>
+                <h2>Warburg Pincus, LLC</h2>
+                <p>466 Lexington Avenue, New York, NY</p>
+              <% elsif counter == 11 %>
+                <h2>Cushman and Wakefield</h2>
+                <p>1290 Sixth Avenue, New York, NY</p>
+              <% elsif counter == 12 %>
+                <h2>119 West 40th Street</h2>
+                <p>119 West 40th Street, New York, NY</p>
+              <% elsif counter == 13 %>
+                <h2>BBVA</h2>
+                <p>1345 Sixth Avenue, New York, NY</p>
+              <% elsif counter == 14 %>
+                <h2>Alliance Bernstein LP</h2>
+                <p>1345 Sixth Avenue, New York, NY</p>
+              <% elsif counter == 15 %>
+                <h2>Alliance Bernstein LP</h2>
+                <p>1345 Sixth Avenue, New York, NY</p>
+              <% elsif counter == 16 %>
+                <h2>Lexus </h2>
+                <p>Madison Sqaure Garden, 4 Pennsylvania Plaza, New York, NY </p>
+              <% elsif counter == 17 %>
+                <h2>Lexus </h2>
+                <p>Madison Sqaure Garden, 4 Pennsylvania Plaza, New York, NY </p>
+              <% elsif counter == 18 %>
+                <h2>Cleary Gottlieb Steen and Hamilton LLP</h2>
+                <p>1 Liberty Plaza, New York, NY</p>
+              <% elsif counter == 19 %>
+                <h2>Gensler</h2>
+                <p>1 Rockefeller Center, New York, NY</p>
+              <% elsif counter == 20 %>
+                <h2>Michael Kors</h2>
+                <p>790 Madison Avenue, New York, NY</p>
+              <% elsif counter == 21 %>
+                <h2>Sheraton Hotel</h2>
+                <p>811 Seventh Avenue, New York, NY</p>
+              <% elsif counter == 22 %>
+                <h2>Sheraton Hotel</h2>
+                <p>811 Seventh Avenue, New York, NY</p>
+              <% elsif counter == 23 %>
+                <h2>Sheraton Hotel</h2>
+                <p>811 Seventh Avenue, New York, NY</p>
+              <% elsif counter == 24 %>
+                <h2>Sheraton Hotel</h2>
+                <p>811 Seventh Avenue, New York, NY</p>
+              <% elsif counter == 25 %>
+                <h2>Debevoise & Plimpton LLP</h2>
+                <p>919 Third Avenue, New York, NY</p>
+              <% elsif counter == 26 %>
+                <h2>Conde Nast Cafeteria</h2>
+                <p>4 Times Square, New York, NY</p>
+              <% elsif counter == 27 %>
+                <h2>Conde Nast Cafeteria</h2>
+                <p>4 Times Square, New York, NY</p>
+              <% elsif counter == 28 %>
+                <h2>Conde Nast Cafeteria</h2>
+                <p>4 Times Square, New York, NY</p>
+              <% elsif counter == 29 %>
+                <h2>Conde Nast Cafeteria</h2>
+                <p>4 Times Square, New York, NY</p>
+              <% elsif counter == 30 %>
+                <h2>Conde Nast Cafeteria</h2>
+                <p>4 Times Square, New York, NY</p>
+              <% elsif counter == 31 %>
+                <h2>Bergdorf Goodman</h2>
+                <p>745 Fifth Avenue, New York, NY</p>
+              <% elsif counter == 32 %>
+                <h2>Disney</h2>
+                <p>711 Fifth Avenue, New York, NY</p>
+              <% elsif counter == 33 %>
+                <h2>Disney</h2>
+                <p>711 Fifth Avenue, New York, NY</p>
+              <% elsif counter == 34 %>
+                <h2>Disney</h2>
+                <p>711 Fifth Avenue, New York, NY</p>
+              <% elsif counter == 35 %>
+                <h2>Sony Store</h2>
+                <p>550 Madison Avenue, New York, NY</p>
+              <% elsif counter == 36 %>
+                <h2>Ernst & Young </h2>
+                <p>5 Times Square, New York, NY</p>
+              <% elsif counter == 37 %>
+                <h2>Ernst & Young </h2>
+                <p>5 Times Square, New York, NY</p>
+              <% elsif counter == 38 %>
+                <h2>Chanel</h2>
+                <p>9 West 57th Street, New York, NY</p>
+              <% elsif counter == 39 %>
+                <h2>Chanel</h2>
+                <p>9 West 57th Street, New York, NY</p>
+              <% elsif counter == 40 %>
+                <h2>The National Basketball Association Store</h2>
+                <p>666 Fifth Avenue, New York, NY</p>
+              <% elsif counter == 41 %>
+                <h2>The National Basketball Association Store</h2>
+                <p>666 Fifth Avenue, New York, NY</p>
+              <% elsif counter == 42 %>
+                <h2>Absolute Vodka </h2>
+              <% elsif counter == 43 %>
+                <h2>Ippolita</h2>
+                <p>796 Madison Avenue, New York, NY</p>
+              <% end %>
+            </div>
+          </li>
+          <% counter += 1 %>
+        <% end %>
       
-      <li>
-                             
-            <div class="item_slider body3">
-                        
-                
-                        
-                    <img width="640" height="400" src=<%=asset_path "Columbia_University_Medical_center.png"%> class="attachment-block_2 wp-post-image" alt="typo07" title="" />                
-              
-                
-                <h2><a href="http://capethemes.com/demo/scroller1/myportfolio/status-theme/">Columbia University Medical Center</a></h2>
-    
-                <p class="meta"><a href="http://capethemes.com/demo/scroller1/categories/architecture/" rel="tag">Arcitecture Highlight</a> &bull; <a href="http://capethemes.com/demo/scroller1/categories/branding/" rel="tag">Another Highlight</a> </p>
-                
-                <h3>Oversized glass sliding doors</h3>
-              
-                
-        
-            </div>        </li>
             
       
       
