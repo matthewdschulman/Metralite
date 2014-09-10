@@ -658,11 +658,11 @@
       <% addresses.push("1 New York Plaza, New York, NY") %>
       <div class="featuredflex flexslider">
       <ul class="slides">   
-        <% projects_to_include = [1,4,43,8,9,36,39,6,35,11,32,16,18,41,26,4,7,13,15,19,20,23,25,31] %>
+        <% projects_to_include = [1,4,43,8,9,36,39,6,35,11,32,16,18,41,26,7,13,15,19,20,23,25,31] %>
         <% projects_to_include.each do |project| %>
           <li>                             
             <div class="item_slider body3">              
-              <img width="640" height="400" src=<%=asset_path "#{project.to_s}.jpg"%> class="attachment-block_2 wp-post-image" alt="1395871_19682756" title="" /> 
+              <img width="640" height="400" src=<%=asset_path "#{project.to_s}_slideshow.png"%> class="attachment-block_2 wp-post-image" alt="1395871_19682756" title="" /> 
               <% if project == 1 %>
                 <h2>One New York Plaza</h2>
                 <p>1 New York Plaza, New York, NY</p>
