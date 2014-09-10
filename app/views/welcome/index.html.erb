@@ -722,144 +722,143 @@
       <% names.push("One New York Plaza") %>
       <% addresses.push("1 New York Plaza, New York, NY") %>
       <div class="featuredflex flexslider">
-      <ul class="slides">      
-        <% counter = 1 %>
-        <% while counter < 44 %>
+      <ul class="slides">   
+        <% projects_to_include = [1,4,43,8,9,36,39,6,35,11,32,16,18,41,26,4,7,13,15,19,20,23,25,31] %>
+        <% projects_to_include.each do |project| %>
           <li>                             
             <div class="item_slider body3">              
-              <img width="640" height="400" src=<%=asset_path "#{counter}.jpg"%> class="attachment-block_2 wp-post-image" alt="1395871_19682756" title="" />                
-              <% if counter == 1 %>
+              <img width="640" height="400" src=<%=asset_path "#{project.to_s}.jpg"%> class="attachment-block_2 wp-post-image" alt="1395871_19682756" title="" /> 
+              <% if project == 1 %>
                 <h2>One New York Plaza</h2>
                 <p>1 New York Plaza, New York, NY</p>
-              <% elsif counter == 2 %>
+              <% elsif project == 2 %>
                 <h2>One New York Plaza</h2>
                 <p>1 New York Plaza, New York, NY</p>
-              <% elsif counter == 3 %>
+              <% elsif project == 3 %>
                 <h2>One New York Plaza</h2>
                 <p>1 New York Plaza, New York, NY</p>
-              <% elsif counter == 4 %>
+              <% elsif project == 4 %>
                 <h2>1185 Sixth Avenue </h2>
                 <p>1185 Sixth Avenue, New York, NY</p>
-              <% elsif counter == 5 %>
+              <% elsif project == 5 %>
                 <h2>Alliance Bernstein</h2>
                 <p>1345 Sixth Avenue, New York, NY</p>
-              <% elsif counter == 6 %>
+              <% elsif project == 6 %>
                 <h2>Ion Media Networks, Inc.</h2>
                 <p>810 Seventh Avenue, New York</p>
-              <% elsif counter == 7 %>
+              <% elsif project == 7 %>
                 <h2>Ion Media Networks, Inc.</h2>
                 <p>810 Seventh Avenue, New York</p>
-              <% elsif counter == 8 %>
+              <% elsif project == 8 %>
                 <h2>Ion Media Networks, Inc.</h2>
                 <p>810 Seventh Avenue, New York</p>
-              <% elsif counter == 9 %>
+              <% elsif project == 9 %>
                 <h2>Warburg Pincus, LLC</h2>
                 <p>466 Lexington Avenue, New York, NY</p>
-              <% elsif counter == 10 %>
+              <% elsif project == 10 %>
                 <h2>Warburg Pincus, LLC</h2>
                 <p>466 Lexington Avenue, New York, NY</p>
-              <% elsif counter == 11 %>
+              <% elsif project == 11 %>
                 <h2>Cushman and Wakefield</h2>
                 <p>1290 Sixth Avenue, New York, NY</p>
-              <% elsif counter == 12 %>
+              <% elsif project == 12 %>
                 <h2>119 West 40th Street</h2>
                 <p>119 West 40th Street, New York, NY</p>
-              <% elsif counter == 13 %>
+              <% elsif project == 13 %>
                 <h2>BBVA</h2>
                 <p>1345 Sixth Avenue, New York, NY</p>
-              <% elsif counter == 14 %>
+              <% elsif project == 14 %>
                 <h2>Alliance Bernstein LP</h2>
                 <p>1345 Sixth Avenue, New York, NY</p>
-              <% elsif counter == 15 %>
+              <% elsif project == 15 %>
                 <h2>Alliance Bernstein LP</h2>
                 <p>1345 Sixth Avenue, New York, NY</p>
-              <% elsif counter == 16 %>
+              <% elsif project == 16 %>
                 <h2>Lexus </h2>
                 <p>Madison Sqaure Garden, 4 Pennsylvania Plaza, New York, NY </p>
-              <% elsif counter == 17 %>
+              <% elsif project == 17 %>
                 <h2>Lexus </h2>
                 <p>Madison Sqaure Garden, 4 Pennsylvania Plaza, New York, NY </p>
-              <% elsif counter == 18 %>
+              <% elsif project == 18 %>
                 <h2>Cleary Gottlieb Steen and Hamilton LLP</h2>
                 <p>1 Liberty Plaza, New York, NY</p>
-              <% elsif counter == 19 %>
+              <% elsif project == 19 %>
                 <h2>Gensler</h2>
                 <p>1 Rockefeller Center, New York, NY</p>
-              <% elsif counter == 20 %>
+              <% elsif project == 20 %>
                 <h2>Michael Kors</h2>
                 <p>790 Madison Avenue, New York, NY</p>
-              <% elsif counter == 21 %>
+              <% elsif project == 21 %>
                 <h2>Sheraton Hotel</h2>
                 <p>811 Seventh Avenue, New York, NY</p>
-              <% elsif counter == 22 %>
+              <% elsif project == 22 %>
                 <h2>Sheraton Hotel</h2>
                 <p>811 Seventh Avenue, New York, NY</p>
-              <% elsif counter == 23 %>
+              <% elsif project == 23 %>
                 <h2>Sheraton Hotel</h2>
                 <p>811 Seventh Avenue, New York, NY</p>
-              <% elsif counter == 24 %>
+              <% elsif project == 24 %>
                 <h2>Sheraton Hotel</h2>
                 <p>811 Seventh Avenue, New York, NY</p>
-              <% elsif counter == 25 %>
+              <% elsif project == 25 %>
                 <h2>Debevoise & Plimpton LLP</h2>
                 <p>919 Third Avenue, New York, NY</p>
-              <% elsif counter == 26 %>
+              <% elsif project == 26 %>
                 <h2>Conde Nast Cafeteria</h2>
                 <p>4 Times Square, New York, NY</p>
-              <% elsif counter == 27 %>
+              <% elsif project == 27 %>
                 <h2>Conde Nast Cafeteria</h2>
                 <p>4 Times Square, New York, NY</p>
-              <% elsif counter == 28 %>
+              <% elsif project == 28 %>
                 <h2>Conde Nast Cafeteria</h2>
                 <p>4 Times Square, New York, NY</p>
-              <% elsif counter == 29 %>
+              <% elsif project == 29 %>
                 <h2>Conde Nast Cafeteria</h2>
                 <p>4 Times Square, New York, NY</p>
-              <% elsif counter == 30 %>
+              <% elsif project == 30 %>
                 <h2>Conde Nast Cafeteria</h2>
                 <p>4 Times Square, New York, NY</p>
-              <% elsif counter == 31 %>
+              <% elsif project == 31 %>
                 <h2>Bergdorf Goodman</h2>
                 <p>745 Fifth Avenue, New York, NY</p>
-              <% elsif counter == 32 %>
+              <% elsif project == 32 %>
                 <h2>Disney</h2>
                 <p>711 Fifth Avenue, New York, NY</p>
-              <% elsif counter == 33 %>
+              <% elsif project == 33 %>
                 <h2>Disney</h2>
                 <p>711 Fifth Avenue, New York, NY</p>
-              <% elsif counter == 34 %>
+              <% elsif project == 34 %>
                 <h2>Disney</h2>
                 <p>711 Fifth Avenue, New York, NY</p>
-              <% elsif counter == 35 %>
+              <% elsif project == 35 %>
                 <h2>Sony Store</h2>
                 <p>550 Madison Avenue, New York, NY</p>
-              <% elsif counter == 36 %>
+              <% elsif project == 36 %>
                 <h2>Ernst & Young </h2>
                 <p>5 Times Square, New York, NY</p>
-              <% elsif counter == 37 %>
+              <% elsif project == 37 %>
                 <h2>Ernst & Young </h2>
                 <p>5 Times Square, New York, NY</p>
-              <% elsif counter == 38 %>
+              <% elsif project == 38 %>
                 <h2>Chanel</h2>
                 <p>9 West 57th Street, New York, NY</p>
-              <% elsif counter == 39 %>
+              <% elsif project == 39 %>
                 <h2>Chanel</h2>
                 <p>9 West 57th Street, New York, NY</p>
-              <% elsif counter == 40 %>
+              <% elsif project == 40 %>
                 <h2>The National Basketball Association Store</h2>
                 <p>666 Fifth Avenue, New York, NY</p>
-              <% elsif counter == 41 %>
+              <% elsif project == 41 %>
                 <h2>The National Basketball Association Store</h2>
                 <p>666 Fifth Avenue, New York, NY</p>
-              <% elsif counter == 42 %>
+              <% elsif project == 42 %>
                 <h2>Absolute Vodka </h2>
-              <% elsif counter == 43 %>
+              <% elsif project == 43 %>
                 <h2>Ippolita</h2>
                 <p>796 Madison Avenue, New York, NY</p>
               <% end %>
             </div>
           </li>
-          <% counter += 1 %>
         <% end %>
       
             
