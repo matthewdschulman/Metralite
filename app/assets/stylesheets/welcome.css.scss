@@ -1426,8 +1426,18 @@ ul#serinfo {
 
 .warpbox{ width:107%; overflow:hidden;}
 
+.hoverblue{
+	color:#E0E0EB;
+}
 .hoverblue:hover {
-    color:#94BFFF; 
+    color:#1fbad6; 
+ }
+
+.hoverbluefromblack{
+	color:black;
+}
+.hoverbluefromblack:hover {
+    color:#1fbad6; 
  }
 
 li.staff{float: left;padding:0; position:relative;text-align:center; overflow:hidden;}
