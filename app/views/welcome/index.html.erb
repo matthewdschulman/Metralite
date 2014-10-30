@@ -180,7 +180,6 @@
       <p>&nbsp;<br />
       &nbsp;</p>
       <h1 style="text-align: center;"><span style="color: #1fbad6;"><span style="color: #1fbad6;">Metralite Industries, Inc.</span><br /></span></h1>
-      <p style="text-align: center;"><div class="tmnf-sc-hr"></div>
       <h3 style="text-align: center;"><span style="color: #1fbad6;">Architectural Metal and Glass</span></h3>
       <p>&nbsp;</p>
     </div>
@@ -280,13 +279,14 @@
 
 
 
+
  <div class="container">
 
 
 
     <h2 class="head" style="color:;">About Metralite</h2>
-    <p class="section_text" style="color:;">For the past half-century, Metralite Industries Incorporated has been at the forefront of American construction innovation. Along with the Brett Glass Company subsidiary, Metralite Industries is recognized as one of the highest quality architectural metal fabrication and glazing firms in the New York area. The 25,000 square-foot Metralite facility is located in Flushing, Queens, where detailed manufacturing does not cease until clients are met with the ingenuity and resources New York deserves. Behind every great city is a team of committed developers. Metralite and Brett Glass aim to develop a greater New York and improve the lives of our people, clients, and communities. Metralite’s industrial leadership promotes advances in nearly every economic sector, with a particular emphasis on sustainability, technology, financial services, education, healthcare, and community development.</p>
-    
+    <p class="section_text" style="color:;">For the past thirty years, Metralite Industries Incorporated has been at the forefront of American construction innovation. Along with the Brett Glass Company subsidiary, Metralite Industries is recognized as one of the highest quality architectural metal fabrication and glazing firms in the New York area. The 25,000 square-foot Metralite facility is located in Flushing, Queens, where detailed manufacturing does not cease until clients are met with the ingenuity and resources New York deserves. Behind every great city is a team of committed developers. Metralite and Brett Glass aim to develop a greater New York and improve the lives of our people, clients, and communities. Metralite’s industrial leadership promotes advances in nearly every economic sector, with a particular emphasis on sustainability, technology, financial services, education, healthcare, and community development.</p>
+
     <div class="hrlineB"></div>  
 
 
@@ -630,12 +630,12 @@
            
               
                    
-              <div class="container" >
+              <div class="container" style="overflow: visible;">
                 
                    
                         
                         <h2 class="head" style="color:;">Projects</h2>
-                        <p class="section_text" style="color:;">Our clients include Fortune 500 corporations and local small businesses. Over the past half-century, we have contributed to New York’s timeless appearance – from developing America’s most established businesses to helping emerging entrepreneurs. Our construction projects can be seen in each borough of New York City. We specialize in corporate interiors, storefront entrances, and canopy enclosures. </p>
+                        <p class="section_text" style="color:;">Our clients include Fortune 500 corporations and local small businesses. Over the past half-century, we have contributed to New York’s timeless appearance – from developing America’s most established businesses to helping emerging entrepreneurs. </p>
                         <div class="hrlineB"></div>  
                             
                          
@@ -647,13 +647,13 @@
       <% addresses = [] %>
       <% names.push("One New York Plaza") %>
       <% addresses.push("1 New York Plaza, New York, NY") %>
-      <div class="featuredflex flexslider">
+      <div class="featuredflex flexslider" style="width: 1200px; position: relative; right:100px;">
       <ul class="slides" style="background-color:white;">   
         <% projects_to_include = [1,4,43,8,9,36,39,6,35,11,32,16,18,41,26,7,13,15,19,20,23,25,31] %>
         <% projects_to_include.each do |project| %>
           <li>                             
             <div class="item_slider body3">              
-              <img width="640" height="400" src=<%=asset_path "#{project.to_s}_slideshow.png"%> class="attachment-block_2 wp-post-image" alt="1395871_19682756" title="" /> 
+              <img width="832" height="520" src=<%=asset_path "#{project.to_s}_slideshow.png"%> class="attachment-block_2 wp-post-image" alt="1395871_19682756" title="" /> 
               <% if project == 1 %>
                 <h2>One New York Plaza</h2>
                 <p>1 New York Plaza, New York, NY</p>
@@ -1011,41 +1011,46 @@ style="   background-color:#303031; ">
           </ul>
           <ul class="warpbox">
             <li class="staff threecol">
-              <h3 class="hoverblue">TPG Architecture, LLP</h3>
+              <h3 class="hoverblue">Ted Moudis Associates</h3>
             </li>                       
             <li class="staff threecol">                        
-              <h3 class="hoverblue">The Bern Companies</h3> 
+              <h3 class="hoverblue">TPG Architecture, LLP</h3> 
             </li>
             <li class="staff threecol">
-              <h3 class="hoverblue">The Marlboro Group International, LLC</h3>  
+              <h3 class="hoverblue">The Bern Companies</h3>  
             </li>
             <li class="staff threecol">
-              <h3 class="hoverblue">Theodore Williams Construction, LLC</h3>   
+              <h3 class="hoverblue">The Marlboro Group International, LLC</h3>   
             </li>
           </ul>
           <ul class="warpbox">
             <li class="staff threecol">
-              <h3 class="hoverblue">The Venetian Group</h3>
+              <h3 class="hoverblue">The Mufson Partnership</h3>
             </li>                       
             <li class="staff threecol">                        
-              <h3 class="hoverblue">Tishman Speyer Co</h3> 
+              <h3 class="hoverblue">Theodore Williams Construction, LLC</h3> 
             </li>
             <li class="staff threecol">
-              <h3 class="hoverblue">Vornado Realty</h3>  
+              <h3 class="hoverblue">The Venetian Group</h3>  
             </li>
             <li class="staff threecol">
-              <h3 class="hoverblue">Warburg Pincus</h3>   
+              <h3 class="hoverblue">Tishman Speyer Co</h3>   
             </li>
           </ul>
-          <ul class="warpbox" style="position:relative; left:250px;">
+          <ul class="warpbox">
             <li class="staff threecol">
-              <h3 class="hoverblue">Werner Krebs</h3>
+              <h3 class="hoverblue">Vornado Realty</h3>
             </li>                       
             <li class="staff threecol">                        
-              <h3 class="hoverblue">Westerman Construction</h3> 
+              <h3 class="hoverblue">Warburg Pincus</h3> 
             </li>
-          </ul>
-         
+            <li class="staff threecol">
+              <h3 class="hoverblue">Wener Krebs</h3>  
+            </li>
+            <li class="staff threecol">
+              <h3 class="hoverblue">Westerman Construction</h3>   
+            </li>
+          </ul>         
     </div>
   </div>
 
