@@ -1737,7 +1737,7 @@ html[xmlns] .slides {display: block;}
 
 .flex-direction-nav{ height:0;}
 .flex-direction-nav li a {width: 40px; height: 75px;display: block; position: absolute; top:46%;cursor: pointer; text-indent: -9999px; z-index:999; background-repeat:no-repeat;}
-.flex-direction-nav li .flex-next {right:0px;background-image:url(images/icons/nav_right_t.png); background-position:7px 25px; text-indent:-9999em}
+.flex-direction-nav li .flex-next {right:0px;background-image:url(images/icons/nav_right_t.png); background-position:7px 25px; text-indent:-9999em; background-color:black;}
 .flex-direction-nav li .flex-prev {left:0px;background-image:url(images/icons/nav_left_t.png); background-position:7px 25px; text-indent:-9999em}
 
 .flex-direction-nav li .flex-next:hover {opacity: .6;}
@@ -1763,7 +1763,7 @@ html[xmlns] .slides {display: block;}
 .widgetflexslider .flex-control-nav{ display:none;}
 
 .widgetflexslider .flex-direction-nav li a {width: 36px; height: 85px; top:105px; }
-.widgetflexslider .flex-direction-nav li .flex-next { position:absolute; right:-50px;background-position:5px 30px;}
+.widgetflexslider .flex-direction-nav li .flex-next { position:absolute; right:-50px;background-position:5px 30px; background-color:black;}
 .widgetflexslider .flex-direction-nav li .flex-prev {position:absolute;  left:-50px;background-position:5px 30px;}
 
 
@@ -1830,7 +1830,7 @@ html[xmlns] .slides {display: block;}
 .featuredflex{ margin:0 0 30px 0;}
 .featuredflex .flex-control-nav { bottom:15px; left:25px; display:none; visibility:hidden;}
 .featuredflex .flex-direction-nav li a {width: 40px; height: 75px; top:41%;}
-.featuredflex .flex-direction-nav li .flex-next {left:63%;background:url(images/icons/bg-next.png) no-repeat 0 0;background-position:7px 25px; }
+.featuredflex .flex-direction-nav li .flex-next {left:63%;background:url(images/icons/bg-next.png; ) no-repeat 0 0;background-position:7px 25px; background-color:black;}
 .featuredflex .flex-direction-nav li .flex-prev {left:10px;background:url(images/icons/bg-prev.png) no-repeat 0 0;background-position:7px 25px; }
 
 
@@ -2491,7 +2491,7 @@ img {
 
 /*.section{ background-attachment:scroll !important;}*/
 
-.widgetflexslider .flex-direction-nav li .flex-next {right:-15px;}
+.widgetflexslider .flex-direction-nav li .flex-next {right:-15px; background-color:black;}
 .widgetflexslider .flex-direction-nav li .flex-prev {left:-15px;}
   
 }
@@ -2565,7 +2565,7 @@ li.staff img,
 
 .featuredflex .flex-direction-nav li a {top:25%;}
 
-.featuredflex .flex-direction-nav li .flex-next { left:auto;right:7px;}
+.featuredflex .flex-direction-nav li .flex-next { left:auto;right:7px; background-color:black;}
 
 .item_slider { padding-bottom:35px !important;}
 
@@ -2775,7 +2775,7 @@ h2.itemtitle{ font-size:30pt; letter-spacing:-2px; width:100%}
 
 .featuredflex .flex-direction-nav li a {top:21%;}
 
-.featuredflex .flex-direction-nav li .flex-next { left:auto;right:7px;}
+.featuredflex .flex-direction-nav li .flex-next { left:auto;right:7px; background-color:black;}
 
 .item_slider { padding-bottom:35px !important;}
 
@@ -2830,7 +2830,7 @@ ul.medpost>li>.meta{height:20px; overflow:hidden;}
 
 
 .flex-direction-nav li a {width: 20px;}
-.flex-direction-nav li .flex-next {right:0px;background-position:-2px 25px;}
+.flex-direction-nav li .flex-next {right:0px;background-position:-2px 25px; background-color:black;}
 .flex-direction-nav li .flex-prev {left:0px;background-position:-2px 25px;}
 
 img.alignleft,
