@@ -12,3 +12,5 @@
  *= require_tree .
  */
 .featuredflex .flex-direction-nav li .flex-next {left:63%;background:url(images/icons/bg-next.png) no-repeat 0 0;background-position:7px 25px; background-color: black;}
+/* latin */
+*{font-family:Algerian !important;}
