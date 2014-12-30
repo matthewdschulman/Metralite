@@ -1640,7 +1640,6 @@ img.wp-smiley {
 				color-stop(0.5, #fff),
 				to(#EFEFEF)
 				);
-	filter: progid: DXImageTransform.Microsoft.Gradient(StartColorStr='#ffffffff', EndColorStr='#EFEFEFEF');
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff, endColorstr=#EFEFEFEF)";
 	-o-linear-gradient(top, #dcdcdc, #c6c6c6);
 
