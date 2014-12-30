@@ -582,7 +582,7 @@ h2.itemtitle{ margin-bottom:30px; letter-spacing: -0.11em !important; line-heigh
 
 #foliosidebar .hrlineB{margin:0 0 15px 0;}
 
-#foliosidebar a.tmnf-sc-button{ margin:15px 2px 15px 2px; !important;}
+#foliosidebar a.tmnf-sc-button{ margin:15px 2px 15px 2px !important;}
 
 #foliocontent iframe{ width:100%; overflow:hidden;}
 
